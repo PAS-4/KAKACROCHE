@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "dancingScript";
+    src: url("../_font/DancingScript-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+#logo{
+    color: pink;
+    width: 21vw;
+    height: 60px;
+    padding: 5px;
+}
+
+#flor{
+    width: 80px;
+    float: left;
+}
+
+#marca{
+    float: right;
+    left: 0;
+}
+
+.fa-facebook, .fa-instagram{
+    padding: 5px;
+}
+
+#wpp ul{
+    list-style: none;
+    text-align: center;
+}
+
+#qrCodeWpp{
+    width: 200px;
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+    display: none;
+    background-color: #34af23;
+    box-shadow: 0px 0px 20px #34af23;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#wpp img{
+    border-radius: 10px;
+}
+
+#wpp p{
+    font-family: "dancingScript";
+    font-weight: bolder;
+    font-size: 15pt;
+    color: #fff;
+}
+
+#iconWpp{
+    display: block;
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+    color: #fff;
+    border-radius: 50% 50% 50% 5%;
+    background-color: #34af23;
+    padding: 6px 3px 5px 2px;
+    box-shadow: 0px 0px 10px #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#iconWpp:hover{
+    color: #34af23;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #34af23;
+}
+
+#iconWpp:hover #qrCodeWpp{
+    display: block;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    position: fixed;
+    z-index: 1;
+}
+
+header ul{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    list-style: none;
+}
+
+header li{
+    float: left;
+    text-align: center;
+}
+
+header a{
+    display: block;
+    width: 100px;
+    height: 70px;
+    text-decoration: none;
+    color: pink;
+}
+
+header a:hover{
+    color: #000;
+    background-color: pink;
+    box-shadow: 0px 0px 10px pink;
+    transition: all .3s;
+}
+
+#apresentacao{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url("../_images/fundo_apresentacao.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(127, 127, 127);
+}
+
+#apresentacao h2{
+    position: relative;
+    top: 200px;
+    font-size: 60pt;
+    color: pink;
+    text-shadow: 0px 0px 20px #000;
+    padding: 20px;
+}
+
+#quemSomos{
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px pink;
+    width: auto;
+    height: auto;
+    background-color: pink;
+    padding: 50px;
+}
+
+#descIdealizadora{
+    width: auto;
+    margin-bottom: 50px;
+}
+
+#perfil{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #000;
+    float: left;
+}
+
+#fraseEfeito{
+    font-family: "dancingScript";
+    font-size: 50pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.descProjeto{
+    font-family: "dancingScript";
+    font-size: 20pt;
+    text-align: center;
+    font-weight: bolder;
+}

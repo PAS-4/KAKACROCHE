@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Káka Crochê</title>
+        <link rel="stylesheet" href="_css/filter.css">
+        <link rel="stylesheet" href="_css/style.css">
+        <link rel="stylesheet" href="_css/fotos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="./_images/_favicon/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="./_images/flor_logo.png" alt="Logotipo" id="flor">
+                <div id="marca">
+                    <h1>Káka Crochê</h1>
+                    <span>Com carinho, pra você!</span>
+                </div>
+            </div>
+            <ul>
+                <li><a href=""><div class="fa"><i class="fa fa-facebook fa-lg"></i></div><br>Facebook</a></li>
+                <li><a href=""><div class="fa"><i class="fa fa-instagram fa-lg"></i></div><br>Instagram</a></li>
+            </ul>
+        </header>
+
+        <div id="apresentacao">
+            <h2>Artigos decorativos em Crochê e Feltro personalizados</h2>
+        </div>
+
+        <!--SELECTS-->
+        <div class="selectClass">
+            <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
+            <select id="material" onchange="opcoesMaterial()">
+                <option value="default">Selecione um Material</option>
+                <option value="croche">Crochê</option>
+                <option value="feltro">Feltro</option>
+            </select>
+
+            <select id="matCroche" onchange="opcoesCroche()">
+                <option value="banheiro">Jogos para Banheiro</option>
+                <option value="tapete">Tapetes</option>
+            </select>
+
+            <select id="matFeltro" onchange="opcoesFeltro()">
+                <option value="personagem">Personagens</option>
+                <option value="game">Video Games</option>
+                <option value="bicho">Bichinhos</option>
+            </select>
+        </div>
+        <!--SELECTS-->
+
+        <!--GALERIA DE FOTOS-->
+        <div> <!--GALERIA AMOSTRA-->
+            <ul id="galAmostra">
+                <h3>Seja bem vindo ao nosso mundo</h3>
+                <li id="amosBanTap"><span>Jogos p/ Banheiro e Tapetes em Crochê</span></li>
+                <li id="amosPerBic"><span>Personagens e Bichinhos em Material Feltro</span></li>
+                <li id="amosLogJog"><span>Chaveiros de Games (Logo dos Jogos) em Feltro</span></li>
+            </ul>
+        </div>
+
+        <div id="galCroche">
+            <ul id="galBanheiro">
+                <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
+                <li id="ban1"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="ban2"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="ban3"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="ban4"><span>Descrição (Larg: X Comp:)</span></li>
+            </ul>
+
+            <ul id="galTapete">
+                <h3>Tapetes em Crochê (tiras de malha)</h3>
+                <li id="tap1"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap2"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap3"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap4"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap5"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap6"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap7"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap8"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap9"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap10"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap11"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap12"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap13"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap14"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap15"><span>Descrição (Larg: X Comp:)</span></li>
+                <li id="tap16"><span>Descrição (Larg: X Comp:)</span></li>
+            </ul>
+        </div>
+        
+        <div id="galFeltro">
+            <ul id="galPersonagem">
+                <h3>Personagens diversos em Feltro</h3>
+                <li id="per1"><span>Descrição (Larg: X Comp:)</span></li>
+            </ul>
+
+            <ul id="galLogoGame">
+                <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
+                <li><span>Descrição (Larg: X Comp:)</span></li>
+                <li><span>Descrição (Larg: X Comp:)</span></li>
+            </ul>
+
+            <ul id="galBichinho">
+                <h3>Bichinhos em Feltro</h3>
+                <li id="bic1"><span>Descrição (Larg: X Comp:)</span></li>
+            </ul>
+        </div>
+        <!--GALERIA DE FOTOS-->
+
+        <!--SESSÃO "QUEM SOMOS"-->
+        <div id="quemSomos">
+            <div id="descIdealizadora">
+                <img src="_images/kaka.jpeg" alt="Ká-ka, idealizadora do projeto!" id="perfil">
+                <p id="fraseEfeito">"Quando a vida te der 'malha', corte em tiras e faça chochê!"</p>
+            </div>
+            <p class="descProjeto">Oi pessoas !!! Me chamo Petrúcia, mas pode me chamar de Ká-Ka. Seja muito bem vindo(a) ao meu mundo. Desde sempre fui apaixonada por artesanato e decoração em geral. Já trabalhei com decoração de aniversário, desde bolos fake até temas completos, com direito a mesas decoradas e ambiente personalizado. Comecei rescentemente esse novo projeto, onde, através da minha arte, deixo você e/ou seus filhos (ou quem quer que voçê vá presentear) mais felizes. Aqui você vai encontrar artigos de decoração personalizados, feitos em crochê com tiras de Malha, chaveiros em Feltro, entre outros, sempre de acordo com seu gosto, afinal, você é quem manda.</p><br>
+            <p class="descProjeto">Sinta-se em casa! Bjs</p>
+        </div>
+
+        <footer>
+            redes sociais
+            (Facebook
+            Instagram
+            Whatsapp)
+
+            "artigos"(link pro #selectMaterial)
+            "Quem somos"(link pro #quemSomos)
+        </footer>
+
+        <div id="wpp">
+            <ul>
+                <li id="iconWpp">
+                    <div class="fa-2x"><i class="fa fa-whatsapp fa-lg"></i></div>
+                    <ul>
+                        <li id="qrCodeWpp">
+                            <img src="_images/qrCodeWhatsApp.jpeg" alt="qrCode do WhatsApp">
+                            <p>KÁ-KA</p>
+                            <P>(11)98252-1614</P>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <script src="./_js/filter.js"></script>
+    </body>
+</html>
