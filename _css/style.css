@@ -148,8 +148,49 @@ header a:hover{
     padding: 20px;
 }
 
+#arteDescricao{
+    width: 100vw;
+    margin: 20px 0 20px 0;
+}
+
+#arteDescricao ul{
+    list-style: none;
+}
+
+#arteDescricao li{
+    width: 50vw;
+    height: 150px;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 25px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#arteDescricao img{
+    width: 150px;
+    transition: all .3s;
+}
+
+.left:hover{
+    box-shadow: 10px 5px 10px pink;
+    background-image: linear-gradient(to right, white,pink);
+}
+
+.right img{
+    float: right;
+}
+
+.right:hover{
+    box-shadow: -10px 5px 10px pink;
+    background-image: linear-gradient(to left, white,pink);
+}
+
+.right:hover img, .left:hover img{
+    transform: scale(1.2);
+}
+
 #quemSomos{
-    margin-top: 20px;
     box-shadow: 0px 0px 20px pink;
     width: auto;
     height: auto;
