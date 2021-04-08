@@ -167,27 +167,64 @@ header a:hover{
     cursor: pointer;
 }
 
+.textLeft, .textRight{
+    text-align: center;
+    width: 77%;
+    height: 100%;
+    font-weight: bolder;
+}
+
+.textLeft{
+    float: left;
+}
+
+.textRight{
+    float: right;
+}
+
+.textLeft span, .textRight span{
+    position: relative;
+    top: 50px;
+    font-size: 35pt;
+    transition: all .3s;
+}
+
+.textLeft:hover span, .textRight:hover span{
+    font-size: 25pt;
+    top: 10px;
+}
+
+.textLeft p, .textRight p{
+    position: relative;
+    top: 30px;
+    visibility: hidden;
+}
+
+.textLeft:hover p, .textRight:hover p{
+    visibility: visible;
+}
+
 #arteDescricao img{
     width: 150px;
     transition: all .3s;
 }
 
-.left:hover{
-    box-shadow: 10px 5px 10px pink;
-    background-image: linear-gradient(to right, white,pink);
+#arteDescricao li:hover img{
+    transform: scale(1.2);
 }
 
-.right img{
+.imgRight{
     float: right;
 }
 
-.right:hover{
+.liShadowLeft:hover{
     box-shadow: -10px 5px 10px pink;
     background-image: linear-gradient(to left, white,pink);
 }
 
-.right:hover img, .left:hover img{
-    transform: scale(1.2);
+.liShadowRight:hover{
+    box-shadow: 10px 5px 10px pink;
+    background-image: linear-gradient(to right, white,pink);
 }
 
 #quemSomos{
