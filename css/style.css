@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family: "dancingScript";
-    src: url("../_font/DancingScript-VariableFont_wght.ttf");
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
 }
 
 *{
@@ -71,7 +71,7 @@ header a:hover{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url("../_images/fundo_apresentacao3.jpg") no-repeat;
+    background: url("../images/fundo_apresentacao3.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: rgba(0, 0, 0, .6);
