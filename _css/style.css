@@ -17,15 +17,9 @@ body{
 }
 
 #logo{
-    color: pink;
     width: 21vw;
     height: 60px;
     padding: 5px;
-}
-
-#flor{
-    width: 80px;
-    float: left;
 }
 
 #marca{
@@ -63,13 +57,13 @@ header a{
     width: 100px;
     height: 70px;
     text-decoration: none;
-    color: pink;
+    color: rgb(255, 1, 197);
 }
 
 header a:hover{
     color: #000;
-    background-color: pink;
-    box-shadow: 0px 0px 10px pink;
+    background-color: rgb(255, 1, 197);
+    box-shadow: 0px 0px 10px rgb(255, 1, 197);
     transition: all .3s;
 }
 
@@ -77,7 +71,7 @@ header a:hover{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url("../_images/fundo_apresentacao.jpg") no-repeat;
+    background: url("../_images/fundo_apresentacao3.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: rgba(0, 0, 0, .6);
@@ -89,14 +83,14 @@ header a:hover{
     position: relative;
     top: 200px;
     font-size: 60pt;
-    color: pink;
+    color: rgb(255, 1, 197);
     text-shadow: 0px 0px 20px #000;
     padding: 20px;
 }
 
 #arteDescricao{
     width: 100vw;
-    margin: 20px 0 20px 0;
+    margin: 40px 0;
 }
 
 #arteDescricao ul{
@@ -111,6 +105,19 @@ header a:hover{
     border-radius: 25px;
     transition: all .5s;
     cursor: pointer;
+}
+
+#arteDescricao li:hover span{
+    font-size: 25pt;
+    top: 10px;
+}
+
+#arteDescricao li:hover p{
+    visibility: visible;
+}
+
+#arteDescricao li:hover img{
+    transform: scale(1.5);
 }
 
 .textLeft, .textRight{
@@ -135,19 +142,11 @@ header a:hover{
     transition: all .3s;
 }
 
-.textLeft:hover span, .textRight:hover span{
-    font-size: 25pt;
-    top: 10px;
-}
-
 .textLeft p, .textRight p{
     position: relative;
-    top: 30px;
+    padding: 25px;
+    top: 0px;
     visibility: hidden;
-}
-
-.textLeft:hover p, .textRight:hover p{
-    visibility: visible;
 }
 
 #arteDescricao img{
@@ -155,29 +154,25 @@ header a:hover{
     transition: all .3s;
 }
 
-#arteDescricao li:hover img{
-    transform: scale(1.2);
-}
-
 .imgRight{
     float: right;
 }
 
 .liShadowLeft:hover{
-    box-shadow: -10px 5px 10px pink;
-    background-image: linear-gradient(to left, white,pink);
+    box-shadow: -10px 5px 10px rgb(255, 1, 197);
+    background-image: linear-gradient(to left, white,rgb(255, 1, 197));
 }
 
 .liShadowRight:hover{
-    box-shadow: 10px 5px 10px pink;
-    background-image: linear-gradient(to right, white,pink);
+    box-shadow: 10px 5px 10px rgb(255, 1, 197);
+    background-image: linear-gradient(to right, white,rgb(255, 1, 197));
 }
 
 #quemSomos{
-    box-shadow: 0px 0px 20px pink;
+    box-shadow: 0px 0px 20px rgb(255, 1, 197);
     width: auto;
     height: auto;
-    background-color: pink;
+    background-color: rgb(255, 1, 197);
     padding: 50px;
 }
 
@@ -218,19 +213,19 @@ footer{
     text-align: center;
     background-color: rgba(0, 0, 0, .9);
     box-shadow: 0px 0px 20px #000;
-    color: pink;
+    color: rgb(255, 1, 197);
 }
 
 footer a{
     display: inline-block;
     text-decoration: none;
-    color: pink;
+    color: rgb(255, 1, 197);
     padding: 10px;
     transition: all .3s;
 }
 
 footer a:hover{
-    text-shadow: 0px 0px 5px pink;
+    text-shadow: 0px 0px 5px rgb(255, 1, 197);
 }
 
 #redes i{
