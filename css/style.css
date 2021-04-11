@@ -71,7 +71,7 @@ header a:hover{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url("../images/fundo_apresentacao3.jpg") no-repeat;
+    background: url("../images/fundo_apresentacao.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: rgba(0, 0, 0, .6);
