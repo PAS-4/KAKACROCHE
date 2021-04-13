@@ -10,41 +10,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html{
+    font-size: 83.3%;
+}
+
 body{
     width: 100vw;
     height: auto;
     overflow-x: hidden;
-}
-
-#logo{
-    width: 21vw;
-    height: 60px;
-    padding: 5px;
-}
-
-#marca{
-    float: right;
-    left: 0;
-}
-
-.fa-facebook, .fa-instagram, .fa-whatsapp{
-    padding: 5px;
+    font-size: 1.2rem;
 }
 
 header{
     width: 100vw;
-    height: 70px;
+    height: auto;
     background-color: rgba(0, 0, 0, .7);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-    position: fixed;
+    position: absolute;
     z-index: 1;
 }
 
+#logo{
+    width: 20vw;
+}
+
 header ul{
-    position: absolute;
-    top: 0px;
+    position: relative;
     right: 20px;
     list-style: none;
+    float: right;
 }
 
 header li{
@@ -54,10 +48,10 @@ header li{
 
 header a{
     display: block;
-    width: 100px;
-    height: 70px;
     text-decoration: none;
     color: rgb(255, 1, 197);
+    height: auto;
+    padding: 1em;
 }
 
 header a:hover{
@@ -82,7 +76,7 @@ header a:hover{
 #apresentacao h1{
     position: relative;
     top: 200px;
-    font-size: 60pt;
+    font-size: 6rem;
     color: rgb(255, 1, 197);
     text-shadow: 0px 0px 20px #000;
     padding: 20px;
@@ -107,19 +101,6 @@ header a:hover{
     cursor: pointer;
 }
 
-#arteDescricao li:hover span{
-    font-size: 25pt;
-    top: 10px;
-}
-
-#arteDescricao li:hover p{
-    visibility: visible;
-}
-
-#arteDescricao li:hover img{
-    transform: scale(1.5);
-}
-
 .textLeft, .textRight{
     text-align: center;
     width: 77%;
@@ -138,7 +119,7 @@ header a:hover{
 .textLeft span, .textRight span{
     position: relative;
     top: 50px;
-    font-size: 35pt;
+    font-size: 3.5rem;
     transition: all .3s;
 }
 
@@ -156,6 +137,19 @@ header a:hover{
 
 .imgRight{
     float: right;
+}
+
+#arteDescricao li:hover span{
+    font-size: 2.5rem;
+    top: 10px;
+}
+
+#arteDescricao li:hover p{
+    visibility: visible;
+}
+
+#arteDescricao li:hover img{
+    transform: scale(1.5);
 }
 
 .liShadowLeft:hover{
@@ -176,11 +170,6 @@ header a:hover{
     padding: 50px;
 }
 
-#descIdealizadora{
-    width: auto;
-    margin-bottom: 50px;
-}
-
 #perfil{
     width: 200px;
     border-radius: 50%;
@@ -188,18 +177,20 @@ header a:hover{
     float: left;
 }
 
-#fraseEfeito{
+#descIdealizadora{
+    width: auto;
+    margin-bottom: 50px;
+}
+
+#fraseEfeito, .descProjeto{
     font-family: "dancingScript";
-    font-size: 50pt;
+    font-size: 5rem;
     text-align: center;
     font-weight: bolder;
 }
 
 .descProjeto{
-    font-family: "dancingScript";
-    font-size: 20pt;
-    text-align: center;
-    font-weight: bolder;
+    font-size: 2rem;
 }
 
 /*FOOTER*/
@@ -233,11 +224,7 @@ footer a:hover{
     padding: 0;
 }
 
-#direitos{
-    padding: 15px;
-}
-
-#dev{
+#direitos, #dev{
     padding: 15px;
 }
 /*FOOTER*/
@@ -267,7 +254,7 @@ footer a:hover{
 #wpp p{
     font-family: "dancingScript";
     font-weight: bolder;
-    font-size: 15pt;
+    font-size: 1.5rem;
     color: #fff;
     padding: 5px;
 }

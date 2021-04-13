@@ -1,0 +1,70 @@
+@media (max-width: 768px){
+
+    html{
+        font-size: 50%;
+    }
+
+    header{
+        position: absolute;
+        height: auto;
+    }
+
+    #logo{
+        width: 50%;
+        height: auto;
+    }
+
+    header ul{
+        right: 0;
+    }
+
+    header a{
+        width: 56px;
+        font-size: 4rem;
+    }
+
+    header span{
+        display: none;
+    }
+
+    #apresentacao{
+        background: url("../images/fundo_apresentacao.768.jpg") no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    #arteDescricao li{
+        width: 88vw;
+    }
+
+    .textLeft, .textRight{
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .textLeft span, .textRight span{
+        font-size: 5rem;
+    }
+
+    #perfil{
+        width: 100px;
+    }
+
+    .descProjeto{
+        font-size: 3rem;
+    }
+
+    #wpp p{
+        font-size: 3rem;
+    }
+
+    #iconWpp{
+        font-size: 5rem;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    #iconWpp:hover #qrCodeWpp{
+        display: none;
+    }
+}
