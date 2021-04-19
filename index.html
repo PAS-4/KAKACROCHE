@@ -2,18 +2,17 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Káka Crochê</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/filter.css">
-        <link rel="stylesheet" href="css/fotos.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="images/favicon/iconKaka.ico" type="image/x-icon">
     </head>
     <body>
         <header>
-                <img src="images/logoKaka.png" alt="Logotipo" id="logo">
+            <img src="images/logoKaka.png" alt="Logotipo" id="logo">
             <ul>
                 <li><a href="#" target="_blank"><div class="fa"><i class="fa fa-facebook fa-lg"></i></div><br><span>Facebook</span></a></li>
                 <li><a href="#" target="_blank"><div class="fa"><i class="fa fa-instagram fa-lg"></i></div><br><span>Instagram</span></a></li>
@@ -24,126 +23,58 @@
             <h1>Artigos decorativos em Crochê e Feltro personalizados</h1>
         </div>
 
-        <!--SELECTS-->
-        <div id="filter">
-            <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
-            <select id="material" onchange="opcoesMaterial()">
-                <option value="default">Selecione um Material</option>
-                <option value="croche">Crochê</option>
-                <option value="feltro">Feltro</option>
-            </select>
-
-            <select id="matCroche" onchange="opcoesCroche()">
-                <option value="banheiro">Jogos para Banheiro</option>
-                <option value="tapete">Tapetes</option>
-            </select>
-
-            <select id="matFeltro" onchange="opcoesFeltro()">
-                <option value="personagem">Personagens</option>
-                <option value="game">Video Games</option>
-                <option value="bicho">Bichinhos</option>
-            </select>
-        </div>
-        <!--SELECTS-->
-
-        <!--GALERIA DE FOTOS-->
-        <div> <!--GALERIA AMOSTRA-->
-            <ul id="galAmostra">
-                <h3>Seja bem vindo ao nosso mundo</h3>
-                <li id="amosBanTap"><span>Jogos p/ Banheiro e Tapetes em Crochê</span></li>
-                <li id="amosPerBic"><span>Personagens e Bichinhos em Material Feltro</span></li>
-                <li id="amosLogJog"><span>Chaveiros de Games (Logo dos Jogos) em Feltro</span></li>
+        <!--GALERIA AMOSTRA-->
+        <div id="galAmostra">
+            <h3>Seja bem vindo ao nosso mundo</h3>
+            <ul>
+                <a href="galery.html"><li id="amosBanTap"><span>Jogos p/ Banheiro e Tapetes em Crochê</span></li></a>
+                <a href="galery.html"><li id="amosPerBic"><span>Personagens e Bichinhos em Material Feltro</span></li></a>
+                <a href="galery.html"><li id="amosLogJog"><span>Chaveiros de Games (Logo dos Jogos) em Feltro</span></li></a>
             </ul>
         </div>
+        <!--GALERIA AMOSTRA-->
 
-        <div id="galCroche">
-            <ul id="galBanheiro">
-                <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
-                <li id="ban1"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="ban2"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="ban3"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="ban4"><span>Descrição (Larg: X Comp:)</span></li>
-            </ul>
-
-            <ul id="galTapete">
-                <h3>Tapetes em Crochê (tiras de malha)</h3>
-                <li id="tap1"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap2"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap3"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap4"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap5"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap6"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap7"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap8"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap9"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap10"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap11"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap12"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap13"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap14"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap15"><span>Descrição (Larg: X Comp:)</span></li>
-                <li id="tap16"><span>Descrição (Larg: X Comp:)</span></li>
-            </ul>
-        </div>
-        
-        <div id="galFeltro">
-            <ul id="galPersonagem">
-                <h3>Personagens diversos em Feltro</h3>
-                <li id="per1"><span>Descrição (Larg: X Comp:)</span></li>
-            </ul>
-
-            <ul id="galLogoGame">
-                <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
-                <li><span>Descrição (Larg: X Comp:)</span></li>
-                <li><span>Descrição (Larg: X Comp:)</span></li>
-            </ul>
-
-            <ul id="galBichinho">
-                <h3>Bichinhos em Feltro</h3>
-                <li id="bic1"><span>Descrição (Larg: X Comp:)</span></li>
-            </ul>
-        </div>
-        <!--GALERIA DE FOTOS-->
-
-        <div id="arteDescricao">
+        <!--ARTIGOS DIVERSOS-->
+        <div id="artigosDiversos">
             <ul>
                 <li class="liShadowRight">
                     <div class="textRight">
                     <span>Tapetes para Banheiro</span>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis dolorum saepe earum porro, laboriosam harum nobis quam laudantium dolor debitis quaerat ex voluptatibus voluptatem quibusdam facilis! Perspiciatis ullam repellendus labore?</p>
                     </div>
-                    <img src="images/arteDescricao/banheiro.png" alt="" class="imgLeft">
+                    <img src="images/artigosDiversos/banheiro.png" alt="" class="imgLeft">
                 </li>
                 <li class="liShadowLeft">
                     <div class="textLeft">
                     <span>Personalizados</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim rerum, ullam suscipit non necessitatibus, assumenda aspernatur facere beatae eveniet qui odio! Dicta illum nulla quos iure soluta pariatur perferendis.</p>
                     </div>
-                    <img src="images/arteDescricao/tapete.png" alt="" class="imgRight">
+                    <img src="images/artigosDiversos/tapete.png" alt="" class="imgRight">
                 </li>
                 <li class="liShadowRight">
                     <div class="textRight">
                     <span>Personagens em Feltro</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto quasi similique quo vel voluptatibus rem quis velit, fugit tempora ex aliquid, rerum officia, adipisci facilis consectetur veritatis perspiciatis dolorem.</p>
                     </div>
-                    <img src="images/arteDescricao/personagem.png" alt="" class="imgLeft">
+                    <img src="images/artigosDiversos/personagem.png" alt="" class="imgLeft">
                 </li>
                 <li class="liShadowLeft">
                     <div class="textLeft">
                     <span>Chaveiros (Games)</span>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt harum cum quasi maxime nobis animi minima temporibus modi ducimus quo? Quos non consequatur minus provident porro nostrum? Deserunt, adipisci voluptas?</p>
                     </div>
-                    <img src="images/arteDescricao/game.png" alt="" class="imgRight">
+                    <img src="images/artigosDiversos/game.png" alt="" class="imgRight">
                 </li>
                 <li class="liShadowRight">
                     <div class="textRight">
                     <span>Chaveiros (Bichinhos)</span>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, voluptates perferendis, odio reiciendis veniam ab odit aliquid nemo temporibus perspiciatis, cupiditate consectetur asperiores. Accusamus distinctio iusto, pariatur facilis cumque odit!</p>
                     </div>
-                    <img src="images/arteDescricao/bichinho.png" alt="" class="imgLeft">
+                    <img src="images/artigosDiversos/bichinho.png" alt="" class="imgLeft">
                 </li>
             </ul>
         </div>
+        <!--ARTIGOS DIVERSOS-->
 
         <!--SESSÃO "QUEM SOMOS"-->
         <div id="quemSomos">
@@ -154,6 +85,7 @@
             <p class="descProjeto">Oi pessoas !!! Me chamo Petrúcia, mas pode me chamar de Ká-Ka. Seja muito bem vindo(a) ao meu mundo. Desde sempre fui apaixonada por artesanato e decoração em geral. Já trabalhei com decoração de aniversário, desde bolos fake até temas completos, com direito a mesas decoradas e ambiente personalizado. Comecei rescentemente esse novo projeto, onde, através da minha arte, deixo você e/ou seus filhos (ou quem quer que voçê vá presentear) mais felizes. Aqui você vai encontrar artigos de decoração personalizados, feitos em crochê com tiras de Malha, chaveiros em Feltro, entre outros, sempre de acordo com seu gosto, afinal, você é quem manda.</p><br>
             <p class="descProjeto">Sinta-se em casa! Bjs</p>
         </div>
+        <!--SESSÃO "QUEM SOMOS"-->
 
         <footer>
             <div id="redes">
@@ -163,8 +95,8 @@
             </div>
 
             <div id="info">
-                <a href="#filter">Já viu minha arte?</a>
-                <a href="#arteDescricao">Artigos</a>
+                <a href="#galAmostra">Já viu minha arte?</a>
+                <a href="#artigosDiversos">Artigos</a>
                 <a href="#quemSomos">Quem somos</a>
             </div>
 

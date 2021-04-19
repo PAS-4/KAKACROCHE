@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Káka Crochê -> Fotos</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fotos.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="images/favicon/iconKaka.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <img src="images/logoKaka.png" alt="Logotipo" id="logo">
+            <ul>
+                <li><a href="#" target="_blank"><div class="fa"><i class="fa fa-facebook fa-lg"></i></div><br><span>Facebook</span></a></li>
+                <li><a href="#" target="_blank"><div class="fa"><i class="fa fa-instagram fa-lg"></i></div><br><span>Instagram</span></a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div id="filter">
+                <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
+                <select id="material" onchange="opcoesMaterial()">
+                    <option value="default">Selecione um Material</option>
+                    <option value="croche">Crochê</option>
+                    <option value="feltro">Feltro</option>
+                </select>
+    
+                <select id="matCroche" onchange="opcoesCroche()">
+                    <option value="banheiro">Jogos para Banheiro</option>
+                    <option value="tapete">Tapetes</option>
+                </select>
+    
+                <select id="matFeltro" onchange="opcoesFeltro()">
+                    <option value="personagem">Personagens</option>
+                    <option value="game">Video Games</option>
+                    <option value="bicho">Bichinhos</option>
+                </select>
+            </div>
+            <!--SELECTS-->
+    
+            <!--GALERIA DE FOTOS-->
+            <div id="galeriaDeFotos">
+                <ul id="galBanheiro">
+                    <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
+                    <li id="ban1"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban2"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban3"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban4"><span>Descrição (Larg: X Comp:)</span></li>
+                </ul>
+    
+                <ul id="galTapete">
+                    <h3>Tapetes em Crochê (tiras de malha)</h3>
+                    <li id="tap1"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap2"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap3"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap4"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap5"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap6"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap7"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap8"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap9"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap10"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap11"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap12"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap13"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap14"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap15"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap16"><span>Descrição (Larg: X Comp:)</span></li>
+                </ul>
+                
+                <ul id="galPersonagem">
+                    <h3>Personagens diversos em Feltro</h3>
+                    <li id="per1"><span>Descrição (Larg: X Comp:)</span></li>
+                </ul>
+    
+                <ul id="galLogoGame">
+                    <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
+                    <li><span>Descrição (Larg: X Comp:)</span></li>
+                    <li><span>Descrição (Larg: X Comp:)</span></li>
+                </ul>
+    
+                <ul id="galBichinho">
+                    <h3>Bichinhos em Feltro</h3>
+                    <li id="bic1"><span>Descrição (Larg: X Comp:)</span></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div id="redes">
+                <a href="#" target="_blank"><div class="fa"><i class="fa fa-facebook fa-lg"></i></div>Facebook</a>
+                <a href="#" target="_blank"><div class="fa"><i class="fa fa-instagram fa-lg"></i></div>Instagram</a>
+                <a href="#" target="_blank"><div class="fa"><i class="fa fa-whatsapp fa-lg"></i></div>WhatsApp</a>
+            </div>
+
+            <div id="info">
+                <a href="#filter">Já viu minha arte?</a>
+                <a href="index.html#artigosDiversos">Artigos</a>
+                <a href="index.html#quemSomos">Quem somos</a>
+            </div>
+
+            <div id="direitos">
+                <p>&copy; Káka-Crochê 2021</p>
+            </div>
+
+            <div id="dev">
+                <p>PAS4 Developer</p>
+            </div>
+        </footer>
+
+        <div id="wpp">
+            <ul>
+                <li id="iconWpp">
+                    <div class="fa-2x"><i class="fa fa-whatsapp fa-lg"></i></div>
+                    <ul>
+                        <li id="qrCodeWpp">
+                            <img src="images/qrCodeWhatsApp.jpeg" alt="qrCode do WhatsApp">
+                            <p>KÁ-KA</p>
+                            <P>(11) 98252-1614</P>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <script src="js/filter.js"></script>
+    </body>
+</html>
