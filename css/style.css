@@ -66,7 +66,6 @@ header a{
     padding: 10px;
     text-decoration: none;
     color: rgb(255, 1, 197);
-    background-color: #fff;
 }
 
 header a:hover .fa{
