@@ -40,7 +40,7 @@ header{
     width: 100vw;
     height: 100px;
     z-index: 1;
-    background-image: linear-gradient(rgb(255, 0, 195), rgba(255, 160, 233, .9));
+    background-image: linear-gradient(#FF01C5, rgba(255, 160, 233, .9));
 }
 
 header .container{
@@ -74,7 +74,7 @@ header li{
 header a{
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #800062;
     padding: 7px;
     margin: auto 5px;
 }
@@ -104,8 +104,8 @@ header a:hover .fa{
 
 #apresentacao h1{
     font-size: 6rem;
-    color: rgb(255, 1, 197);
-    text-shadow: 0px 0px 3px #800062;
+    color: #800062;
+    text-shadow: 0px 0px 3px rgb(255, 1, 197);
 }
 
 #logoPink{
@@ -125,7 +125,7 @@ h3{
     width: 100%;
     text-align: center;
     font-size: 3.5rem;
-    color: #000;
+    color: #800062;
     margin-bottom: 30px;
 }
 
@@ -156,7 +156,7 @@ h3{
     font-size: 27pt;
     font-weight: bolder;
     text-shadow: 0px 0px 70px #fff;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(128, 0, 98, 0.9);
     border-radius: 5px;
     transition: all .3s;
 }
@@ -176,7 +176,7 @@ h3{
 /*ARTIGOS (DESCRIÇÃO)*/
 #artigosDiversos{
     width: 100vw;
-    margin: 40px 0;
+    margin-bottom: 20px;
     background: url("../images/fundo_apresentacao.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -186,7 +186,7 @@ h3{
     padding: 2%;
     width: 100%;
     max-width: 100%;
-    background-image: linear-gradient(to right, rgba(255, 1, 197, .5), rgba(255, 255, 255, 0.5), rgba(255, 1, 197, .5));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
 }
 
 #artigosDiversos ul{
@@ -220,8 +220,8 @@ h3{
 
 .textLeft span, .textRight span{
     position: relative;
-    top: 50px;
-    font-size: 3.5rem;
+    top: 40px;
+    font-size: 5rem;
     transition: all .3s;
 }
 
@@ -255,23 +255,24 @@ h3{
 }
 
 .liShadowLeft:hover{
-    box-shadow: -10px 5px 10px rgb(255, 1, 197);
+    box-shadow: -10px 5px 10px #800062;
     background-image: linear-gradient(to left, white,rgb(255, 1, 197));
 }
 
 .liShadowRight:hover{
-    box-shadow: 10px 5px 10px rgb(255, 1, 197);
+    box-shadow: 10px 5px 10px #800062;
     background-image: linear-gradient(to right, white,rgb(255, 1, 197));
 }
 /*ARTIGOS (DESCRIÇÃO)*/
 
 /*QUEM SOMOS*/
 #quemSomos{
-    box-shadow: 0px 0px 20px rgb(255, 1, 197);
+    box-shadow: 0px 0px 20px #800062;
     width: auto;
     height: auto;
-    background-color: rgb(255, 1, 197);
+    background-image: radial-gradient(rgba(255, 1, 197, 0.1), rgba(255, 1, 197, 0.5));
     padding: 50px;
+    color: #800062;
 }
 
 #perfil{
