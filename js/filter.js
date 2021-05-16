@@ -74,5 +74,28 @@ function opcoesFeltro(){
     }
 }
 
-const banheiro = document.querySelectorAll('[banheiro]')
-const h3 = document.querySelector('h3')
+
+let croche = document.querySelectorAll("[croche]")
+let feltro = document.querySelectorAll("[feltro]")
+
+let checkCroche = document.querySelector("input[#checkCroche]")
+
+checkCroche.addEventListener( 'change', function() {
+    if(this.checked) {
+        // Checkbox está selecionado.
+        croche.style.backgroundColor = "black"
+    } else {
+        // Checkbox não está selecionado.
+        croche.style.display = "none"
+    }
+});
+
+let h3 = document.querySelector('h3')
+h3.innerHTML = "none"
+/*
+h3.innerHTML = "Jogos p/ Banheiro em Crochê (tiras de malha)"
+h3.innerHTML = "Tapetes em Crochê (tiras de malha)"
+h3.innerHTML = "Personagens diversos em Feltro"
+h3.innerHTML = "Chaveiros de Games em Feltro (Logos dos jogos)"
+h3.innerHTML = "Bichinhos em Feltro"
+*/

@@ -29,6 +29,22 @@
             <!--SELECTS
             <div id="filter">
                 <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
+                <fieldset id="optionCroche">
+                    <legend><input type="checkbox" id="checkCroche"><label for="checkCroche">Crochê</label></legend>
+                    <input type="radio" name="opCroche" id="opBan1"><label for="opBan1">Banheiro</label>
+                    <input type="radio" name="opCroche" id="opBan2"><label for="opBan2">Personalizados</label>
+                    <input type="radio" name="opCroche" id="opBan3"><label for="opBan3">Diversos</label>
+                </fieldset>
+                <fieldset id="optionFeltro">
+                    <legend><input type="checkbox" id="checkFeltro"><label for="checkFeltro">Feltro</label></legend>
+                    <input type="radio" name="opFeltro" id="opFel1"><label for="opFel1">Personagens</label>
+                    <input type="radio" name="opFeltro" id="opFel2"><label for="opFel2">Games</label>
+                    <input type="radio" name="opFeltro" id="opFel3"><label for="opFel3">Bichinhos</label>
+                </fieldset>
+            </div>
+
+            <!--<div id="filter">
+                <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
                 <select id="material" onchange="opcoesMaterial()">
                     <option value="default">Selecione um Material</option>
                     <option value="croche">Crochê</option>
@@ -45,54 +61,65 @@
                     <option value="game">Video Games</option>
                     <option value="bicho">Bichinhos</option>
                 </select>
-            </div>
-            -->
-    
+            </div>-->
+
             <!--GALERIA DE FOTOS-->
             <div class="container">
-                <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
-                <h3>Tapetes em Crochê (tiras de malha)</h3>
-                <h3>Personagens diversos em Feltro</h3>
-                <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
-                <h3>Bichinhos em Feltro</h3>
+                
+            <div id="filter">
+                <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
+                <fieldset id="optionCroche">
+                    <legend><input type="checkbox" id="checkCroche"><label for="checkCroche">Crochê</label></legend>
+                        <input type="checkbox" id="opBanheiro"><label for="opBanheiro">Banheiro</label>
+                        <input type="checkbox" id="opPersonalizado"><label for="opPersonalizado">Personalizados</label>
+                        <input type="checkbox" id="opDiversos"><label for="opDiversos">Diversos</label>
+                </fieldset>
+                <fieldset id="optionFeltro">
+                    <legend><input type="checkbox" id="checkFeltro"><label for="checkFeltro">Feltro</label></legend>
+                        <input type="checkbox" id="opPersonagen"><label for="opPersonagen">Personagens</label>
+                        <input type="checkbox" id="opGame"><label for="opGame">Games</label>
+                        <input type="checkbox" id="opBichinho"><label for="opBichinho">Bichinhos</label>
+                </fieldset>
+            </div>
+                <h3>Galeria</h3>
                 <ul>
                     <!--BANHEIRO-->
-                    <li id="ban1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban2" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban3" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban4" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban1" croche banheiro><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban2" croche banheiro><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban3" croche banheiro><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban4" croche banheiro><span>Descrição (Larg: X Comp:)</span></li>
                     <!--BANHEIRO-->
 
                     <!--TAPETE-->
-                    <li id="tap1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap2" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap3" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap4" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap5" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap6" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap7" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap8" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap9" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap10" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap11" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap12" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap13" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap14" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap15" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap16" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap1" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap2" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap3" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap4" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap5" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap6" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap7" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap8" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap9" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap10" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap11" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap12" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap13" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap14" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap15" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap16" croche diversos><span>Descrição (Larg: X Comp:)</span></li>
                     <!--TAPETE-->
 
                     <!--PERSONAGEM-->
-                    <li id="per1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="per1" feltro><span>Descrição (Larg: X Comp:)</span></li>
                     <!--PERSONAGEM-->
 
-                    <!--GAME-->
-                    <li class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--GAME
+                    <li id="game1" feltro><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="game2" feltro><span>Descrição (Larg: X Comp:)</span></li>
                     <!--GAME-->
 
                     <!--BICHINHO-->
-                    <li id="bic1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="bic1" feltro><span>Descrição (Larg: X Comp:)</span></li>
                     <!--BICHINHO-->
                 </ul>
             </div>
