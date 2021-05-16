@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <div class="container">
+            <nav class="container">
                 <img src="images/logoKaka800062.png" alt="Logotipo" id="logoBlack">
                 <ul>
                     <li><a href="index.html"><div class="fa"><i class="fa fa-home fa-lg"></i></div><br><span>Home</span></a></li>
@@ -22,10 +22,11 @@
                     <li><a href="https://facebook.com/petruciaavila" target="_blank"><div class="fa"><i class="fa fa-facebook fa-lg"></i></div><br><span>Facebook</span></a></li>
                     <li><a href="https://instagram.com/petruciaavila" target="_blank"><div class="fa"><i class="fa fa-instagram fa-lg"></i></div><br><span>Instagram</span></a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
 
         <main>
+            <!--SELECTS
             <div id="filter">
                 <div class="fa"><a onclick="mostraSelectMaterial()"><i class="fa fa-filter fa-lg"></i>Filtrar</a></div>
                 <select id="material" onchange="opcoesMaterial()">
@@ -45,52 +46,54 @@
                     <option value="bicho">Bichinhos</option>
                 </select>
             </div>
-            <!--SELECTS-->
+            -->
     
             <!--GALERIA DE FOTOS-->
-            <div id="galeriaDeFotos">
-                <ul id="galBanheiro">
-                    <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
-                    <li id="ban1"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban2"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban3"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="ban4"><span>Descrição (Larg: X Comp:)</span></li>
-                </ul>
-    
-                <ul id="galTapete">
-                    <h3>Tapetes em Crochê (tiras de malha)</h3>
-                    <li id="tap1"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap2"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap3"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap4"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap5"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap6"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap7"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap8"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap9"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap10"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap11"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap12"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap13"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap14"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap15"><span>Descrição (Larg: X Comp:)</span></li>
-                    <li id="tap16"><span>Descrição (Larg: X Comp:)</span></li>
-                </ul>
-                
-                <ul id="galPersonagem">
-                    <h3>Personagens diversos em Feltro</h3>
-                    <li id="per1"><span>Descrição (Larg: X Comp:)</span></li>
-                </ul>
-    
-                <ul id="galLogoGame">
-                    <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
-                    <li><span>Descrição (Larg: X Comp:)</span></li>
-                    <li><span>Descrição (Larg: X Comp:)</span></li>
-                </ul>
-    
-                <ul id="galBichinho">
-                    <h3>Bichinhos em Feltro</h3>
-                    <li id="bic1"><span>Descrição (Larg: X Comp:)</span></li>
+            <div class="container">
+                <h3>Jogos p/ Banheiro em Crochê (tiras de malha)</h3>
+                <h3>Tapetes em Crochê (tiras de malha)</h3>
+                <h3>Personagens diversos em Feltro</h3>
+                <h3>Chaveiros de Games em Feltro (Logos dos jogos)</h3>
+                <h3>Bichinhos em Feltro</h3>
+                <ul>
+                    <!--BANHEIRO-->
+                    <li id="ban1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban2" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban3" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="ban4" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--BANHEIRO-->
+
+                    <!--TAPETE-->
+                    <li id="tap1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap2" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap3" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap4" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap5" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap6" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap7" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap8" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap9" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap10" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap11" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap12" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap13" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap14" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap15" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li id="tap16" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--TAPETE-->
+
+                    <!--PERSONAGEM-->
+                    <li id="per1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--PERSONAGEM-->
+
+                    <!--GAME-->
+                    <li class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <li class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--GAME-->
+
+                    <!--BICHINHO-->
+                    <li id="bic1" class="liStyle"><span>Descrição (Larg: X Comp:)</span></li>
+                    <!--BICHINHO-->
                 </ul>
             </div>
         </main>
