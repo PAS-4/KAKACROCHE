@@ -1,6 +1,6 @@
 @charset "UTF=8";
 
-/*FILTER*/
+/*FILTER
 #filter{
     position: relative;
     width: 25vw;
@@ -71,7 +71,7 @@ h3{
     width: 100%;
     list-style: none;
     margin: auto;
-    display: none;
+    /*display: none;*/
     overflow: hidden;
     border: solid 1px #000;
 }
