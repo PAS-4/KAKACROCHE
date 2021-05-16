@@ -112,7 +112,7 @@ h3{
 }
 
 /*HOVER DAS FOTOS*/
-#amosBanTap:hover, #amosPerBic:hover, #amosLogJog:hover, #ban1:hover, #ban2:hover, #ban3:hover, #ban4:hover, #bic1:hover, #tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #per1:hover{
+#amosBanTap:hover, #amosPerBic:hover, #amosLogJog:hover, #ban1:hover, #ban2:hover, #ban3:hover, #ban4:hover, #ban5:hover, #bic1:hover, #diver1:hover, #diver2:hover, #tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #tap17:hover, #tap18:hover, #tap19:hover, #tap20:hover, #tap21:hover, #tap22:hover, #per1:hover{
     background-position: 0px 0px;
     background-size: 350px 250px;
 }
@@ -128,7 +128,13 @@ h3{
 #ban2{ background: url("../images/croche/banheiro/ban2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #ban3{ background: url("../images/croche/banheiro/ban3.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #ban4{ background: url("../images/croche/banheiro/ban4.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#ban5{ background: url("../images/croche/banheiro/ban5.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA BANHEIRO*/
+
+/*GALERIA DIVERSOS*/
+#diver1{ background: url("../images/croche/diversos/diver1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#diver2{ background: url("../images/croche/diversos/diver2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+/*GALERIA DIVERSOS*/
 
 /*GALERIA TAPETE*/
 #tap1{ background: url("../images/croche/tapetes/tap1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
@@ -147,6 +153,12 @@ h3{
 #tap14{ background: url("../images/croche/tapetes/tap14.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap15{ background: url("../images/croche/tapetes/tap15.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap16{ background: url("../images/croche/tapetes/tap16.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap17{ background: url("../images/croche/tapetes/tap17.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap18{ background: url("../images/croche/tapetes/tap18.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap19{ background: url("../images/croche/tapetes/tap19.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap20{ background: url("../images/croche/tapetes/tap20.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap21{ background: url("../images/croche/tapetes/tap21.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap22{ background: url("../images/croche/tapetes/tap22.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA TAPETE*/
 
 /*GALERIA PERSONAGENS*/
