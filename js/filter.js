@@ -73,3 +73,6 @@ function opcoesFeltro(){
         galBichinho.style.display = 'block'
     }
 }
+
+const banheiro = document.querySelectorAll('[banheiro]')
+const h3 = document.querySelector('h3')
