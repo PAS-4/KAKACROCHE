@@ -16,17 +16,23 @@ linksScrollSuave.forEach(items =>{                               //criação de 
 function moveScrollOnClick(Event){ //Função de efeito Scroll Suave usada no evento "click"
 
     Event.preventDefault()         //Desabilita a funcionalidade padrão do browser em relação ao click
+    const destinyElementTop = getTopOfDestinyElement(Event.target)
 
-    const element = Event.target   //Mostra qual elemento("tag") foi clicado
+    controlMoveScroll(destinyElementTop)
+}
+
+function controlMoveScroll(destinyElementTop){
+    window.scroll({
+        top: destinyElementTop,
+        behavior: "smooth"      //Não funciona em todos os browsers
+    })
+}
+
+function getTopOfDestinyElement(element){        //Busca o topo do elemento "destino"
 
     //const id = element.getAttribute('href') --> Salva em "id" o id "destino" do ELEMENTO CLICADO (valor do "href")
 
-    const sectionSelected = document.querySelector(element.getAttribute('href')).offsetTop
+    return document.querySelector(element.getAttribute('href')).offsetTop
     //Salva em "sectionSelected" o endereço da div "destino", que foi referenciado pelo "href" do ELEMENTO CLICADO (valor do "href")
     //função ".offsetTop" --> Indica a posição em pixels da "sectionSelected" em relação ao topo do browser
-
-    window.scroll({
-        top: sectionSelected,
-        behavior: "smooth"      //Não funciona em todos os browsers
-    })
 }
