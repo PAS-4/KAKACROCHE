@@ -1,21 +1,7 @@
-@media (max-width: 768px){
+@media (max-width: 360px){
 
     html{
-        font-size: 50%;
-    }
-
-    header{
-        position: absolute;
-        height: auto;
-    }
-
-    #logo{
-        width: 50%;
-        height: auto;
-    }
-
-    header ul{
-        right: 0;
+        font-size: 25%;
     }
 
     header a{
@@ -27,14 +13,50 @@
         display: none;
     }
 
-    #apresentacao{
-        background: url("../images/fundo_apresentacao.768.jpg") no-repeat;
-        background-size: cover;
-        height: 40vh;
+    #logoApresentacao{
+        width: 50%;
     }
 
-    #arteDescricao li{
-        width: 88vw;
+    #galAmostra{
+        padding: 0;
+        margin: 0;
+    }
+
+    #galAmostra h3{
+        font-size: 8rem;
+        margin-top: 50px;
+    }
+
+    #galAmostra span{
+        opacity: 1;
+        background-color: rgba(128, 0, 98, 0.5);
+    }
+    
+    #galAmostra li:hover{
+        transform: scale(1.0);
+    }
+
+    #artigosDiversos .container{
+        padding: 20px 0;
+    }
+
+    #artigosDiversos li{
+        position: relative;
+        width: 90vw;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+    #artigosDiversos img{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20%;
+    }
+
+    #artigosDiversos li:hover img{
+        top: 20%;
+        transform: scale(1.5);
     }
 
     .textLeft, .textRight{
@@ -44,6 +66,16 @@
 
     .textLeft span, .textRight span{
         font-size: 5rem;
+    }
+
+    #quemSomos{
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    #quemSomos .container{
+        padding: 20px;
+        box-sizing: border-box;
     }
 
     #perfil{
