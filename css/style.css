@@ -70,18 +70,39 @@ header a{
     display: block;
     text-decoration: none;
     color: #800062;
-    padding: 7px;
     margin: auto 5px;
 }
 
 header .fa{
-    margin: 5px;
+    display: block;
     transition: all .3s;
 }
 
 header a:hover .fa{
     transform: scale(1.2);
     text-shadow: 0px 0px 1px #000;
+}
+
+header .fa, header span{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#bar{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 40px;
+    height: auto;
+    display: none;
+}
+
+.one, .two, .three{
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    background-color: #800062;
 }
 /*HEADER*/
 
@@ -183,7 +204,7 @@ h3{
 }
 
 #artigosDiversos .container{
-    padding: 2%;
+    padding: 20px 0;
     width: 100%;
     max-width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
