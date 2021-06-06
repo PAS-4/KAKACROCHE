@@ -412,4 +412,12 @@ footer a:hover{
 #iconWpp:hover #qrCodeWpp{
     display: block;
 }
+
+#qrCodeWpp a{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
 /*ÍCONE DO WHATSAPP*/

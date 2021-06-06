@@ -122,10 +122,14 @@
     }
 
     #perfil{
-        width: 100px;
+        width: 80px;
     }
 
     .descProjeto{
+        font-size: 4rem;
+    }
+
+    footer, #direitos, #dev{
         font-size: 3rem;
     }
 
