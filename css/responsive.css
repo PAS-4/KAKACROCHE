@@ -134,12 +134,23 @@
     }
 
     #iconWpp{
-        font-size: 5rem;
-        right: 50px;
-        bottom: 50px;
+        font-size: 3rem;
+        right: 0px;
+        bottom: 0px;
+        padding: 5px 0 5px 5px;
+        border-radius: 50% 0 0 10%;
     }
 
-    #iconWpp:hover #qrCodeWpp{
+    #qrCodeWpp{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        padding: 10px 0;
+        width: 100vw;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #qrCodeWpp img{
         display: none;
     }
 }
