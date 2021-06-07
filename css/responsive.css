@@ -141,13 +141,19 @@
         border-radius: 50% 0 0 10%;
     }
 
+    #iconWpp:hover #qrCodeWpp{
+        bottom: 0;
+    }
+
     #qrCodeWpp{
         position: absolute;
         right: 0px;
-        bottom: 0px;
+        bottom: -100px;
         padding: 10px 0;
         width: 100vw;
         border-radius: 10px 10px 0 0;
+        display: block;
+        transition: all .5s;
     }
 
     #qrCodeWpp img{
