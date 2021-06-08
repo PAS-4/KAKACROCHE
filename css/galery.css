@@ -112,7 +112,13 @@ h3{
 }
 
 /*HOVER DAS FOTOS*/
-#amosBanTap:hover, #amosPerBic:hover, #amosLogJog:hover, #ban1:hover, #ban2:hover, #ban3:hover, #ban4:hover, #ban5:hover, #bic1:hover, #diver1:hover, #diver2:hover, #tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #tap17:hover, #tap18:hover, #tap19:hover, #tap20:hover, #tap21:hover, #tap22:hover, #per1:hover{
+#amosBanTap:hover, #amosPerBic:hover, #amosLogJog:hover,
+#ban1:hover, #ban2:hover, #ban3:hover, #ban4:hover, #ban5:hover,
+#diver1:hover, #diver2:hover,
+#tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #tap17:hover, #tap18:hover, #tap19:hover, #tap20:hover, #tap21:hover, #tap22:hover, #tap23:hover,
+#per1:hover, #per2:hover, #per3:hover, #per4:hover,
+#gam1:hover,
+#bic1:hover, #bic2:hover{
     background-position: 0px 0px;
     background-size: 350px 250px;
 }
@@ -159,14 +165,23 @@ h3{
 #tap20{ background: url("../images/croche/tapetes/tap20.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap21{ background: url("../images/croche/tapetes/tap21.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap22{ background: url("../images/croche/tapetes/tap22.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap23{ background: url("../images/croche/tapetes/tap23.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA TAPETE*/
 
 /*GALERIA PERSONAGENS*/
 #per1{ background: url("../images/feltro/personagens/per1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per2{ background: url("../images/feltro/personagens/per2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per3{ background: url("../images/feltro/personagens/per3.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per4{ background: url("../images/feltro/personagens/per4.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA PERSONAGENS*/
+
+/*GALERIA GAMES*/
+#gam1{ background: url("../images/feltro/games/gam1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+/*GALERIA GAMES*/
 
 /*GALERIA BICHINHOS*/
 #bic1{ background: url("../images/feltro/bichinhos/bic1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#bic2{ background: url("../images/feltro/bichinhos/bic2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA BICHINHOS*/
 
 /*#galCroche span, #galFeltro*/main .container li span{
