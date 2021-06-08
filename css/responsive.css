@@ -189,4 +189,31 @@
     #qrCodeWpp img{
         display: none;
     }
+
+    /*GALERIA*/
+    main h3{
+        font-size: 8rem;
+    }
+
+    main .container, main .container ul{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    main .container li{
+        float: none;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    main .container li:hover{
+        transform: scale(1);
+    }
+
+    main .container li span{
+        margin: 0;
+        width: 90%;
+    }
+    /*GALERIA*/
 }
