@@ -12,11 +12,12 @@
     header ul{
         position: fixed;
         top: 70px;
-        left: 0;
+        left: 100%;
         width: 100vw;
         height: calc(100vh - 90px);
         background-image: linear-gradient(rgba(255, 160, 233, .99), #fff, rgba(255, 160, 233, .99));
-        display: none;
+        opacity: 0;
+        transition: all .5s;
     }
     
     header li{
@@ -46,8 +47,33 @@
         display: inline-block;
     }
 
+    nav.ativado ul{
+        opacity: 1;
+        left: 0;
+    }
+
+    nav.ativado .one{
+        top: 9px;
+        transform: rotate(495deg);
+    }
+
+    nav.ativado .two{
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+    
+    nav.ativado .three{
+        top: -9px;
+        transform: rotate(-495deg);
+    }
+
     #bar{
         display: block;
+    }
+
+    .one, .two, .three{
+        position: relative;
+        transition: all .3s;
     }
 
     #logoApresentacao{
