@@ -204,16 +204,10 @@
     main .container li{
         float: none;
         margin: 50px auto;
-        text-align: center;
     }
 
     main .container li:hover{
         transform: scale(1);
-    }
-
-    main .container li span{
-        margin: 0;
-        width: 90%;
     }
     /*GALERIA*/
 }
