@@ -114,10 +114,12 @@ h3{
 
 /*HOVER DAS FOTOS*/
 #amosBanTap:hover, #amosPerBic:hover, #amosLogJog:hover,
+#bol1:hover, #bol2:hover, #bol3:hover, #bol4:hover,
 #ban1:hover, #ban2:hover, #ban3:hover, #ban4:hover, #ban5:hover,
 #diver1:hover, #diver2:hover,
-#tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #tap17:hover, #tap18:hover, #tap19:hover, #tap20:hover, #tap21:hover, #tap22:hover, #tap23:hover,
-#per1:hover, #per2:hover, #per3:hover, #per4:hover, #per5:hover,
+#tap1:hover, #tap2:hover, #tap3:hover, #tap4:hover, #tap5:hover, #tap6:hover, #tap7:hover, #tap8:hover, #tap9:hover, #tap10:hover, #tap11:hover, #tap12:hover, #tap13:hover, #tap14:hover, #tap15:hover, #tap16:hover, #tap17:hover, #tap18:hover, #tap19:hover, #tap20:hover, #tap21:hover, #tap22:hover, #tap23:hover, #tap24:hover, #tap25:hover,
+#chav1:hover, #chav2:hover, #chav3:hover, #chav4:hover,
+#per1:hover, #per2:hover, #per3:hover, #per4:hover, #per5:hover, #per6:hover, #per7:hover, #per8:hover, #per9:hover, #per10:hover, #per11:hover, #per12:hover, #per13:hover,
 #gam1:hover,
 #bic1:hover, #bic2:hover{
     background-position: 0px 0px;
@@ -125,12 +127,14 @@ h3{
 }
 /*HOVER DAS FOTOS*/
 
-/*GALERIA BANHEIRO*/
-.liStyle{
-    background-position: 50% 50%;
-    background-size: 450px 350px;
-}
+/*GALERIA BOLSA*/
+#bol1{ background: url("../images/croche/bolsas/bol1.jpeg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#bol2{ background: url("../images/croche/bolsas/bol2.jpeg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#bol3{ background: url("../images/croche/bolsas/bol3.jpeg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#bol4{ background: url("../images/croche/bolsas/bol4.jpeg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+/*GALERIA BOLSA*/
 
+/*GALERIA BANHEIRO*/
 #ban1{ background: url("../images/croche/banheiro/ban1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #ban2{ background: url("../images/croche/banheiro/ban2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #ban3{ background: url("../images/croche/banheiro/ban3.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
@@ -167,7 +171,16 @@ h3{
 #tap21{ background: url("../images/croche/tapetes/tap21.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap22{ background: url("../images/croche/tapetes/tap22.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #tap23{ background: url("../images/croche/tapetes/tap23.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap24{ background: url("../images/croche/tapetes/tap24.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#tap25{ background: url("../images/croche/tapetes/tap25.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA TAPETE*/
+
+/*GALERIA CHAVEIRO*/
+#chav1{ background: url("../images/feltro/chaveiros/chav1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#chav2{ background: url("../images/feltro/chaveiros//chav2.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#chav3{ background: url("../images/feltro/chaveiros//chav3.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#chav4{ background: url("../images/feltro/chaveiros//chav4.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+/*GALERIA CHAVEIRO*/
 
 /*GALERIA PERSONAGENS*/
 #per1{ background: url("../images/feltro/personagens/per1.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
@@ -175,6 +188,14 @@ h3{
 #per3{ background: url("../images/feltro/personagens/per3.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #per4{ background: url("../images/feltro/personagens/per4.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 #per5{ background: url("../images/feltro/personagens/per5.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per6{ background: url("../images/feltro/personagens/per6.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per7{ background: url("../images/feltro/personagens/per7.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per8{ background: url("../images/feltro/personagens/per8.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per9{ background: url("../images/feltro/personagens/per9.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per10{ background: url("../images/feltro/personagens/per10.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per11{ background: url("../images/feltro/personagens/per11.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per12{ background: url("../images/feltro/personagens/per12.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
+#per13{ background: url("../images/feltro/personagens/per13.jpg") no-repeat; background-position: 50% 50%; background-size: 450px 350px; }
 /*GALERIA PERSONAGENS*/
 
 /*GALERIA GAMES*/
