@@ -38,6 +38,13 @@ body{
     align-items: center;
 }
 
+.flex-center-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-space-between{
     display: flex;
     justify-content: space-between;
@@ -110,7 +117,7 @@ header .fa, header span{
 }
 /*HEADER*/
 
-/*APRESENTAÇÃO (BACKGROUND "PARALAX")*/
+/*APRESENTAÇÃO*/
 #apresentacao{
     position: relative;
     width: 100vw;
@@ -132,7 +139,7 @@ header .fa, header span{
 #logoApresentacao{
     width: 50%;
 }
-/*APRESENTAÇÃO (BACKGROUND "PARALAX")*/
+/*APRESENTAÇÃO*/
 
 /*GALERIA "AMOSTRA"*/
 #galAmostra{
@@ -198,7 +205,7 @@ h3{
 }
 /*GALERIA "AMOSTRA"*/
 
-/*ARTIGOS (DESCRIÇÃO)*/
+/*ARTIGOS (DESCRIÇÃO) (BACKGROUND "PARALAX")*/
 #artigosDiversos{
     width: 100vw;
     margin-bottom: 20px;
@@ -224,9 +231,20 @@ h3{
     cursor: pointer;
 }
 
+.liShadowLeft:hover{
+    box-shadow: -10px 5px 10px #800062;
+    background-image: linear-gradient(to left, white,rgb(255, 1, 197));
+}
+
+.liShadowRight:hover{
+    box-shadow: 10px 5px 10px #800062;
+    background-image: linear-gradient(to right, white,rgb(255, 1, 197));
+}
+
 .textLeft, .textRight{
     width: 77%;
     height: 100%;
+    margin: 0 20px;
     font-weight: bolder;
 }
 
@@ -240,9 +258,14 @@ h3{
 
 .textLeft span, .textRight span{
     position: relative;
-    top: 40px;
+    top: 30px;
     font-size: 5rem;
     transition: all .3s;
+}
+
+#artigosDiversos li:hover span{
+    font-size: 2.5rem;
+    top: 10px;
 }
 
 .textLeft p, .textRight p{
@@ -252,38 +275,19 @@ h3{
     visibility: hidden;
 }
 
+#artigosDiversos li:hover p{
+    visibility: visible;
+}
+
 #artigosDiversos img{
     width: 150px;
     transition: all .3s;
 }
 
-.imgRight{
-    float: right;
-}
-
-#artigosDiversos li:hover span{
-    font-size: 2.5rem;
-    top: 10px;
-}
-
-#artigosDiversos li:hover p{
-    visibility: visible;
-}
-
 #artigosDiversos li:hover img{
     transform: scale(1.5);
 }
-
-.liShadowLeft:hover{
-    box-shadow: -10px 5px 10px #800062;
-    background-image: linear-gradient(to left, white,rgb(255, 1, 197));
-}
-
-.liShadowRight:hover{
-    box-shadow: 10px 5px 10px #800062;
-    background-image: linear-gradient(to right, white,rgb(255, 1, 197));
-}
-/*ARTIGOS (DESCRIÇÃO)*/
+/*ARTIGOS (DESCRIÇÃO) (BACKGROUND "PARALAX")*/
 
 /*QUEM SOMOS*/
 #quemSomos{
@@ -309,8 +313,11 @@ h3{
 
 #fraseEfeito, .descProjeto{
     font-family: "dancingScript";
-    font-size: 5rem;
     font-weight: bolder;
+}
+
+#fraseEfeito{
+    font-size: 5rem;
 }
 
 .descProjeto{
@@ -355,9 +362,8 @@ footer a:hover{
 /*FOOTER*/
 
 /*ÍCONE DO WHATSAPP*/
-
 #qrCodeWpp{
-    width: 200px;
+    width: auto;
     position: fixed;
     right: 25px;
     bottom: 100px;
