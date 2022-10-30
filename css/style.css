@@ -134,10 +134,23 @@ header .fa, header span{
     font-size: 7rem;
     color: #800062;
     text-shadow: 0px 0px 3px rgb(255, 1, 197);
+    margin-top: 200px;
+    opacity: 0;
+    animation: up 2s forwards;
 }
 
 #logoApresentacao{
     width: 50%;
+    margin-top: 50px;
+    opacity: 0;
+    animation: up 1.5s .5s forwards;
+}
+
+@keyframes up{
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
 }
 /*APRESENTAÇÃO*/
 
