@@ -79,6 +79,10 @@ header .container{
     width: 230px;
 }
 
+header span{
+    display: none;
+}
+
 header a{
     display: block;
     color: #800062;
